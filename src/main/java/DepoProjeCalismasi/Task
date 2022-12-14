@@ -1,0 +1,163 @@
+    /*
+     * basit bir depo projesi
+     *
+     * Calisan bir fabrikada uygulanan bir sistem olan depo uygulamasidir.
+     *
+     * 1-) burada oncelikle urunun tanimlamasi  yapilir.  //pojoUrun
+      int id
+      urunIsmi
+      uretici
+      miktar
+      birim ve
+      raf (6 adet fields mevcut)
+     *
+     * 2-) methodlar olusturacagiz.
+     *      urunTanimlama   ==>  urunun ismi, ureticisi ve birimi girilecek. id  alınacak.  //MAP<id,pojoUrun>   RAF="-"ve Miktar=0
+     *
+     *      urunListele     ==> tanimlanan urunler listelenecek. urunun adeti ve raf numarasi tanimlama yapilmadiysa default deger gorunsun.
+     *     ///  printf(%10)
+     *      urunGirisi      ==> giris yapmak istedigimiz urnunun id numarasi ile girecegiz.
+     *
+     *      urunuRafaKoy    ==> listeden urunu sececegiz ve id numarasina gore urunu rafa koyacagiz.
+     *
+     *      urunCikisi      ==> listeden urunu sececegiz ve urunun cikis yapcagiz. burada urun listesinden sadece miktarda degisiklik yapilacak.
+     *                          urun adedi 0dan az olamaz. 0 olunca urun tanimlamasi silinmesin. sadece miktari 0 olsun.
+     *      ===> yaptigimiz tum degisiklikler listede de gorunsun.
+     *
+     *
+     *          id      ismi    ureticisi   miktari     birimi      raf
+     *      ---------------------------------------------------------------
+     *      or: 1000     un     hekimoglu   0           cuval       null
+     *
+     *      urunGirisi      ==> id:1000  urun girisi :5
+     *      urunListele     ==>
+     *
+     *          id      ismi    ureticisi   miktari     birimi      raf
+     *      ---------------------------------------------------------------
+     *      or: 1000     un     hekimoglu   5           cuval       null
+     *
+     *      urunuRafaKoy    ==> id:1000 raf : raf1
+     *      urunListele     ==>
+     *          id      ismi    ureticisi   miktari     birimi      raf
+     *      ---------------------------------------------------------------
+     *      or: 1000     un     hekimoglu   5           cuval       raf1
+     *
+     *      urunCikisi      ==> id 1000: urun cikis : 3 (kalan 2 cuval un)
+     *      urunListele     ==>
+     *          id      ismi    ureticisi   miktari     birimi      raf
+     *      ---------------------------------------------------------------
+     *      or: 1000     un     hekimoglu   2           cuval       raf1
+     *
+     *
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*
+
+//        if(urunId.equals(id)) {
+//
+//            for (Integer w : urunId) {//100-101-102-103
+//
+//                if (w == id) {
+//                    System.out.println("Miktar giriniz = ");
+//                    int miktar = input.nextInt();
+//
+//                    obje.setMiktar(obje.getMiktar() + miktar);
+//
+//
+//                    System.out.println("Urun eklemeye Devam Etmek istiyorsaniz 1'e\n Anasayfaya donmek icin 2'e basiniz");
+//
+//                    int secim = input.nextInt();
+//
+//                    do {
+//                        if (secim == 1) {
+//                            urunGirisi();
+//                            break;
+//                        } else if (secim == 2) {
+//                            DepoKarsilama.depoKarsilamaSayfasi();
+//                            break;
+//                        } else {
+//                            System.out.println("Yanlis secim yaptiniz. Tekrar giris yapiniz.");
+//                            secim = input.nextInt();
+//                        }
+//                    } while (true);
+//
+//                    break;
+//
+//                }
+//            }
+//        }else {
+//            System.out.println("Yanlis ID girdiniz|\n Tekrar giris yapiniz.");
+//            id=input.nextInt();
+//            for (Integer w : urunId) {//100-101-102-103
+//
+//                if (w == id) {
+//                    System.out.println("Miktar giriniz = ");
+//                    int miktar = input.nextInt();
+//
+//                    obje.setMiktar(obje.getMiktar() + miktar);
+//
+//
+//                    System.out.println("Urun eklemeye Devam Etmek istiyorsaniz 1'e\n Anasayfaya donmek icin 2'e basiniz");
+//
+//                    int secim = input.nextInt();
+//
+//                    do {
+//                        if (secim == 1) {
+//                            urunGirisi();
+//                            break;
+//                        } else if (secim == 2) {
+//                            DepoKarsilama.depoKarsilamaSayfasi();
+//                            break;
+//                        } else {
+//                            System.out.println("Yanlis secim yaptiniz. Tekrar giris yapiniz.");
+//                            secim = input.nextInt();
+//                        }
+//                    } while (true);
+//
+//                    break;
+//
+//                }
+//            }
+//        }
+//
+//        }
+////            if (w!=id)  {
+////                System.err.println("Yanlis id Girdiniz !");
+////
+////                System.out.println("Urun eklemeye Devam Etmek istiyorsaniz 1'e\n Anasayfaya donmek icin 2'e basiniz");
+////                int secim = input.nextInt();
+////
+////                do {
+////                    if(secim==1){
+////                        urunGirisi();
+////                        break;
+////                    } else if (secim==2 ) {
+////                        DepoKarsilama.depoKarsilamaSayfasi();
+////                        break;
+////                    }else {
+////                        System.out.println("Yanlis secim yaptiniz. Tekrar giris yapiniz.");
+////                        secim= input.nextInt();
+////                    }
+////                }while(true);
+////
+////            }
+
+     */
+
+
