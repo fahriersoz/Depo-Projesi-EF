@@ -3,7 +3,7 @@ package DepoProjeCalismasi;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DepoUrunListesi { //UrunTanımlama
+public class DepoUrunListesi {
     private static Map<Integer, UrunTanimlama> urunler = new HashMap<>();
 
     protected  static Map<Integer, UrunTanimlama> depodakiUrunler() {

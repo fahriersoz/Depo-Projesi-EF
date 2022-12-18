@@ -27,9 +27,9 @@ public class UrunCikis {
                     cikarilacakUrun.setMiktar(cikarilacakUrun.getMiktar() - miktarCikis);
 
                     System.out.println("Urun cikartmaya devam etmek icin 1'e \n Anasayfaya donmek icin herhangi bir tusa basiniz...");
-                    String secim = input.next();
+                    int secim = input.nextInt();
 
-                    if (secim.equalsIgnoreCase("1")) {
+                    if (secim == 1) {
                         urunCikisi();
                     } else {
                         DepoKarsilama.depoKarsilamaSayfasi();
@@ -53,7 +53,7 @@ public class UrunCikis {
                 "Tekrar cikartacaginiz urun miktarini girmek icin 2'ye basin \n " +
                 "Anasayfaya donmek icin baska bir tusa basin");
 
-        int islem = input.nextInt();  // sorun olabilir eger olursa burayi String yapmamiz lazim
+        int islem = input.nextInt();
 
         switch (islem) {
             case 1:

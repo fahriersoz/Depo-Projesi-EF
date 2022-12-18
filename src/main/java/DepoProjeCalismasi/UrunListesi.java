@@ -16,15 +16,15 @@ public class UrunListesi {
         System.out.println("\tID\t\t\tİSİM\t\t\tURETİCİ\t\t\tBİRİM\t\t\t\tRAF\t\t\t\t\t\tMİKTAR");
         System.out.println("--------------------------------------------------------------------------------------------------------------");
 
-        Map<Integer, UrunTanimlama> urunler = UrunTanimlama.urunListesiOlustur(); // 1
+        Map<Integer, UrunTanimlama> urunler = UrunTanimlama.urunListesiOlustur();
 
-        Set<Map.Entry<Integer, UrunTanimlama>> urunlerSet = urunler.entrySet(); // 2
+        Set<Map.Entry<Integer, UrunTanimlama>> urunlerSet = urunler.entrySet();
 
         for (Map.Entry<Integer, UrunTanimlama> urun : urunlerSet) {
 
-            System.out.print("\t" + urun.getKey() + "" + urun.getValue() + "\n");  //konsol alt siralama
+            System.out.print("\t" + urun.getKey() + "" + urun.getValue() + "\n");
 
         }
-        DepoKarsilama.depoKarsilamaSayfasi(); //3
+        DepoKarsilama.depoKarsilamaSayfasi();
     }
 }

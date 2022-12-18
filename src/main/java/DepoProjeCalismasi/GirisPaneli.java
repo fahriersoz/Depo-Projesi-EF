@@ -3,7 +3,7 @@ package DepoProjeCalismasi;
 public class GirisPaneli {
     public GirisPaneli() {
 
-        System.out.println("======================== DEPO ANASAYFA ======================\r\n"
+        System.out.println("========================== İŞLEMLER =======================\r\n"
                             + "   ____________________             ____________________    \n"
                             + "   | 1-URUN TANIMLAMA  |            | 2-URUN RAFA KOY|      \n"
                             + "   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    \n"
@@ -13,7 +13,6 @@ public class GirisPaneli {
                             + "   ____________________             ____________________    \n"
                             + "   | 5-URUN LİSTESİ    |            | 6-CIKIS           |   \n"
                             + "   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯       ");
-        System.out.println("======================== İŞLEMLER =======================\n");
 
     }
 

@@ -8,11 +8,21 @@ public class DepoKarsilama extends DepoUrunListesi {
 
     public static void depoKarsilamaSayfasi() {
 
-        System.err.println("#  DEPO ANASAYFA  #");
+//        System.err.println("#  DEPO ANASAYFA  #");
+//
+//        //System.out.println(" 1. Urun Tanimlama\n" + " 2. Urun Rafa Koy\n" + " 3. Urun Giris\n" + " 4. Urun Cikis\n" + " 5. Urun Listesi\n" + " 6. Cıkıs\n" + "Yapmak istediginiz islemin numarasini giriniz: ");
 
-       // System.out.println(" 1. Urun Tanimlama\n" + " 2. Urun Rafa Koy\n" + " 3. Urun Giris\n" + " 4. Urun Cikis\n" + " 5. Urun Listesi\n" + " 6. Cıkıs\n" + "Yapmak istediginiz islemin numarasini giriniz: ");
-
-
+//        System.out.println("========================== İŞLEMLER =======================\r\n"
+//                + "   ____________________             ____________________    \n"
+//                + "   | 1-URUN TANIMLAMA  |            | 2-URUN RAFA KOY|      \n"
+//                + "   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    \n"
+//                + "   ____________________             ____________________    \n"
+//                + "   | 3-URUN GIRISI     |            | 4-URUN CIKISI     |   \n"
+//                + "   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    \n"
+//                + "   ____________________             ____________________    \n"
+//                + "   | 5-URUN LİSTESİ    |            | 6-CIKIS           |   \n"
+//                + "   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯             ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯       ");
+//
         int secim = input.nextInt();
 
         switch (secim) {
@@ -39,9 +49,7 @@ public class DepoKarsilama extends DepoUrunListesi {
                 break;
 
         }
-
-
- }
+    }
 
 }
 

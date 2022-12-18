@@ -10,9 +10,9 @@ public class YeniUrunGiris {
         do {
             yeniUrun();
             System.out.println("Urun eklemeye devam etmek icin 1'e \n Anasayfaya donmek icin herhangi bir tusa basiniz...");
-            String secim = input.next();
+            int secim = input.nextInt();
 
-            if(secim.equals("1")){
+            if(secim==1){
                 urunGirisi();
             }else {
                 DepoKarsilama.depoKarsilamaSayfasi();
